@@ -3,24 +3,30 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 60px;
+  background-color: #f8f8f8;
+  min-height: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-.App-header a {
-  color:white;
-  margin:0 25px;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  color: #363636;
 }
 
-.projectbar{
-  background-color: blue;
-  display: flex;
-  flex-direction: column;
+.logo{
+  justify-content:left;
+  padding-right: 20%;
+  padding-left: 3%;
+}
+
+.menu{
+  margin-right:3%;
+}
+
+.App-header a {
+  color:#363636;
+  margin-left: 50px;
+  text-decoration: none;
 }
 
 .projectCardImage{
@@ -52,7 +58,7 @@
 }
 
 h4{
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 400;
 }
 
