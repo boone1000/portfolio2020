@@ -8,50 +8,47 @@ function Projects(){
             <p>\/</p>
         </div>
 
+        <div className='projectClassWrapper'>
+
         <div className='projectList'>
 
             <div class="projectcard">
-                <div className='cardWrapper'>
-                    <div className="cardImage">
-                        <img className='projectCardImage' src={require('../images/myplanCover.png')} alt='backpacking pic'></img>
-                    </div>
-                    <div className='cardContent'>
-                        <div class="projectCardContainer">
-                            <h4><b>Academic Planning</b></h4>
-                            <p>Supporting long term academic planning at the University of Washington</p>
-                            <p>University of Washington IT | Spring 2019</p>
-                        </div>
-                    </div>
+                <img className='projectCardImage' src={require('../images/myplanCover.png')} alt='backpacking pic'></img>
+                <div class="projectCardContainer">
+                    <p className='metadata'>University of Washington IT | Spring 2019</p>
+                    <p className='projectCardTitle'>Academic Planning</p>
+                    <p className='cardDescription'>Supporting long term academic planning at the University of Washington.</p>
                 </div>
             </div>
 
             <div class="projectcard">
                 <img className='projectCardImage' src={require('../images/lighthouseCover.png')} alt='backpacking pic'></img>
                 <div class="projectCardContainer">
-                    <h4><b>Lighthouse</b></h4>
-                    <p>Helping young adults feel safe walking home in the dark</p>
-                    <p>Class Project | Winter 2018</p>
+                    <p className='metadata'>Class Project | Winter 2018</p>
+                    <p className='projectCardTitle'>Lighthouse</p>
+                    <p className='cardDescription'>Helping young adults feel safe walking home in the dark.</p>
                 </div>
             </div>
 
             <div class="projectcard">
                 <img className='projectCardImage' src={require('../images/backpacking.jpg')} alt='backpacking pic'></img>
                 <div class="projectCardContainer">
-                    <h4><b>Oral Histories</b></h4>
-                    <p>Sharing stories of UW students to increase awareness and encourage reflection</p>
-                    <p>University of Washington IT | Spring 2020</p>
+                    <p className='metadata'>University of Washington IT | Spring 2020</p>
+                    <p className='projectCardTitle'>Oral History</p>
+                    <p className='cardDescription'>Sharing stories of UW students to increase awareness and encourage reflection.</p>
                 </div>
             </div>
 
             <div class="projectcard">
                 <img className='projectCardImage' src={require('../images/backpacking.jpg')} alt='backpacking pic'></img>
                 <div class="projectCardContainer">
-                    <h4><b>Streamlining Patient Discharge</b></h4>
-                    <p>??????????????????</p>
-                    <p>Seattle Children's Hospital | Spring 2020</p>
+                    <p className='metadata'>Seattle Children's Hospital | Spring 2020</p>
+                    <p className='projectCardTitle'>Streamlining Patient Discharge</p>
+                    <p className='cardDescription'>??????????????????</p>
                 </div>
             </div>
 
+            </div>
         </div> 
     </div>
 }

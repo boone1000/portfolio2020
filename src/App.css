@@ -43,18 +43,19 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width:90%;
-  margin-left:5%;
-  margin-bottom: 5%
+  /* margin-left:1%; */
+  margin-bottom: 600px; /*THIS ONE ISN"T WORKING */
 }
 
-/* .projectcard {
-  Add shadows to create the "card" effect
+.projectcard {
+  /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width:90%;
-  margin-left:5%;
-  margin-bottom: 5%
-} */
+  width:45%;
+  min-width:300px;
+  margin-left:2.5%;
+  margin-bottom: 2.5%
+}
 
 /* On mouse-over, add a deeper shadow */
 .projectcard:hover {
@@ -64,35 +65,36 @@
 /* Add some padding inside the card container */
 .projectCardContainer {
   padding: 2px 16px;
+  text-align: left;
 }
 
-
-
-/* HORIZONTAL CARD STYLING */
-
-.cardWrapper{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  align-items: stretch;
+.metadata{
+  color: #acacac;
 }
 
-.cardImage{
-  width: 65%;
+.projectCardTitle{
+  font-size: 1.75rem;
+  margin-top:15px;
+  margin-bottom:3px;
+  color: #333333;
 }
 
-.cardContent{
-  width:35%;
-  padding-top:1rem;
+.cardDescription{
+  margin-top:3;
 }
-
 
 /* PROJECT PAGE SYLTING */
 
 .projectList{
+  width:95%;
   display:flex;
   flex-wrap: wrap;
+  margin:auto;
+  justify-content: space-evenly;
+}
+
+.projectClassWrapper{
+  margin:auto;
 }
 
 h4{
@@ -102,4 +104,34 @@ h4{
 
 .splash{
   padding:15%;
+}
+
+
+/* ABOUT PAGE STYLE */
+
+.wrapperPics{
+  width:45%;
+}
+
+.wrapperText{
+  width:45%;
+  
+}
+
+.aboutContainer{
+  width:80%;
+  display:flex;
+  flex-wrap: wrap;
+  margin:auto;
+  justify-content: space-evenly;
+  text-align:left;
+}
+
+.aboutImage{
+    width:100%;
+    margin-top:1em;
+}
+
+.main{
+  font-size:1.25em;
 }
