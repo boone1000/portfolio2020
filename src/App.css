@@ -1,18 +1,20 @@
 .App {
   text-align: center;
+  font-family: Lato;
+  background-color: rgb(248, 248, 248);
 }
 
 /* HEADER */
 
 .App-header {
-  background-color: #f8f8f8;
+  background-color: #CDDAD7;
   min-height: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   font-size: 1.25rem;
-  color: #363636;
+  color: #19425E;
 }
 
 .logo{
@@ -23,10 +25,11 @@
 
 .menu{
   margin-right:3%;
+  color: #19425E;
 }
 
 .App-header a {
-  color:#363636;
+  color:#19425E;
   margin-left: 50px;
   text-decoration: none;
 }
@@ -57,6 +60,12 @@
   margin-bottom: 2.5%
 }
 
+@media screen and (max-width: 780px){
+  .projectcard{
+    width:90%;
+  }
+}
+
 /* On mouse-over, add a deeper shadow */
 .projectcard:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -65,25 +74,32 @@
 /* Add some padding inside the card container */
 .projectCardContainer {
   padding: 2px 16px;
-  text-align: left;
+  text-align: center;
 }
 
 .metadata{
-  color: #acacac;
+  color: #C3B899;
 }
 
 .projectCardTitle{
   font-size: 1.75rem;
   margin-top:15px;
   margin-bottom:3px;
-  color: #333333;
+  color: #19425E;
+  text-decoration: none;
 }
 
 .cardDescription{
   margin-top:3;
+  color: #557A8B;
 }
 
-/* PROJECT PAGE SYLTING */
+/* HOME PROJECT PAGE SYLTING */
+
+#introText{
+  font-size: 24px;
+
+}
 
 .projectList{
   width:95%;
@@ -98,40 +114,125 @@
 }
 
 h4{
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: 400;
+  font-style: italic;
 }
 
 .splash{
   padding:15%;
+  color: #19425E;
 }
 
 
 /* ABOUT PAGE STYLE */
 
 .wrapperPics{
-  width:45%;
-}
-
-.wrapperText{
-  width:45%;
-  
-}
-
-.aboutContainer{
-  width:80%;
-  display:flex;
-  flex-wrap: wrap;
-  margin:auto;
-  justify-content: space-evenly;
-  text-align:left;
+  width: 50%;
 }
 
 .aboutImage{
-    width:100%;
-    margin-top:1em;
+  width: 100%;
+}
+
+.biotext{
+  width: 50%;
+  text-align: left;
+  padding-left: 5%;
+  color: #19425E;
+}
+
+#line{
+  color: #C3B899;
+  font-size: 25px;
+  margin-top: -25px;
+}
+
+.aboutContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main{
-  font-size:1.25em;
+  text-align: left;
+}
+
+@media screen and (min-width: 780px){
+  .aboutContainer{
+    width: 80%;
+    margin: auto;
+    min-height: 95vh;
+  }
+}
+
+@media screen and (max-width: 920px){
+  .aboutContainer{
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    min-height: 95vh;
+    padding-top: 10px;
+  }
+
+  .biotext{
+    width: 90%;
+    text-align: center;
+  }
+
+  .wrapperPics{
+    width: 90%;
+  }
+
+  .aboutImage{
+    max-width: 400px;
+  }
+}
+
+/* PROJECT PAGE */
+
+.projectWrapper{
+  justify-content:center;
+}
+
+.projectBody{
+  text-align: left;
+  width:50%;
+  justify-content:center;
+  margin: auto;
+  color: #19425E;
+}
+
+@media screen and (max-width: 600px){
+  .projectBody{
+    width: 80%;
+  }
+}
+
+.caseStudyImage{
+  padding-top: 10px;
+  padding-bottom: 30px;
+  width:100%;
+}
+
+.caseStudyMetadata{
+  text-align: center;
+  color: #C3B899;
+  font-size: 18px; 
+}
+
+.caseStudyTitleImage{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.fold{
+  padding-top:10px;
+  padding-bottom: 30px;
+}
+
+.pullQuote{
+  font-size: 30px;
+  font-style: italic;
 }

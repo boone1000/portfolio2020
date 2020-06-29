@@ -3,8 +3,8 @@ import React from 'react'
 function Projects(){
     return <div className="page">
         <div className='splash'>
-            <h1>ashley boone</h1>
-            <p>Hello! I am a UX Designer with a strong background in user research. I'm passionate about using a thoughtful, evidence-based approach to design to contribute to meaningful projects with a positive impact.</p>
+            <h1>Ashley Boone</h1>
+            <p id='introText'>Hello! I am a UX Designer with a strong background in user research. I'm passionate about using a thoughtful, evidence-based approach to design to contribute to meaningful projects with a positive impact.</p>
             <p>\/</p>
         </div>
 
@@ -16,8 +16,9 @@ function Projects(){
                 <img className='projectCardImage' src={require('../images/myplanCover.png')} alt='backpacking pic'></img>
                 <div class="projectCardContainer">
                     <p className='metadata'>University of Washington IT | Spring 2019</p>
-                    <p className='projectCardTitle'>Academic Planning</p>
-                    <p className='cardDescription'>Supporting long term academic planning at the University of Washington.</p>
+                    <a className='projectCardTitle' href='/planning'>Supporting long term academic planning at the University of Washington</a>
+                    {/* <p className='cardDescription'>Supporting long term academic planning at the University of Washington.</p> */}
+                    <button>Read More</button>
                 </div>
             </div>
 

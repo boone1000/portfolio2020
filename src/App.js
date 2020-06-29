@@ -9,6 +9,7 @@ import Contact from './pages/About'
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
+import planning from './pages/planning';
 
 function App() {
   return <BrowserRouter>
@@ -28,6 +29,7 @@ function App() {
       <Route path="/" exact component={Projects} />
       <Route path="/resume" component={Resume} />
       <Route path="/about" component={About} />
+      <Route path="/planning" component={planning} />
 
     </div>
   </BrowserRouter>
