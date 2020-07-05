@@ -10,6 +10,9 @@ import About from './pages/About';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import planning from './pages/planning';
+import oralhistory from './pages/oralhistory';
+import lighthouse from './pages/lighthouse';
+import discharge from './pages/discharge';
 
 function App() {
   return <BrowserRouter>
@@ -30,6 +33,11 @@ function App() {
       <Route path="/resume" component={Resume} />
       <Route path="/about" component={About} />
       <Route path="/planning" component={planning} />
+      <Route path="/oralhistory" component={oralhistory} />
+      <Route path="/lighthouse" component={lighthouse} />
+      <Route path="/discharge" component={discharge} />
+
+
 
     </div>
   </BrowserRouter>
