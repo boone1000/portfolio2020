@@ -4,13 +4,13 @@ function lighthouse(){
     return <div className="page">
         <div>
             <img className='caseStudyTitleImage' src={require('../images/lighthouseCover.png')} alt='backpacking pic'></img>
-            <p className="caseStudyMetadata">Professional Work | Assistant UX Designer | UW-IT</p>
+            <p className="caseStudyMetadata">Class Project | Winter  2018</p>
         </div>
 
         <div className='projectWrapper'>
             <div className='projectBody'>
 
-                <h1>Ligthouse</h1>
+                <h1>Lighthouse</h1>
                 
                 <p>Walking home in the dark can be a negative experience that many people face daily. Young adults, in particular, must face this discomfort because they have limited transportation options late at night and may not have the funds to avoid the walk.  We conduct user research and design a solution that crowdsources safety through data and empowers users to make decisions about their own safety.</p>
                 <img className='caseStudyImage' src={require('../images/lighthouseCover.png')} alt='backpacking pic'></img>
@@ -46,7 +46,7 @@ function lighthouse(){
 
                 <div className='fold'>
                     <h2>Competitive Analysis</h2>
-                    <p>We examine existing products to identify how they meet user needs and how they follow short.  We looked at SafeTrek, Watch OVer Me, and the Nimb Ring.  From this analysis we find that: </p>
+                    <p>We examine existing products to identify how they meet user needs and how they follow short.  We looked at SafeTrek, Watch Over Me, and the Nimb Ring.  From this analysis we find that: </p>
                     <li>Prices are prohibitive</li>
                     <li>Products are only useful in an emergency situation</li>
                     <li>User must rely on others to watch over them as they walk instead of being empowered to take care of themselves.</li>
@@ -67,7 +67,7 @@ function lighthouse(){
                     <div className='twocolumns'>
                         <div className='column'>
                             <p>01.</p>
-                            <p>Reassure friends and family of their safety</p>
+                            <p>reassure friends and family of their safety</p>
                             <p>02.</p>
                             <p>find the safest way home using publicly available data as well as data collected through the platform</p>
                             <p>03.</p>

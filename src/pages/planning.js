@@ -4,7 +4,7 @@ function planning(){
     return <div className="page">
         <div>
             <img className='caseStudyTitleImage' src={require('../images/myplanCover.png')} alt='backpacking pic'></img>
-            <p className="caseStudyMetadata">Professional Work | Assistant UX Designer | UW-IT</p>
+            <p className="caseStudyMetadata">Professional Work | Student UX Designer | UW-IT</p>
         </div>
         <div className='projectWrapper'>
             <div className='projectBody'>
@@ -15,11 +15,11 @@ function planning(){
 
                 <div className='fold'>
                     <h2>My Role</h2>
-                    <p>I was put on this project to provide fresh perspective for a long term problem faced by the Unviersity of Washington: how to incorporate sample plans in the digital planning syste. I lead the research phase of the project and advocated to shift the goal of the project away from sample plans and towards supporting long term academic planning. Along with one other student worker, l worked to design, prototype, evaluate, and present final designs to deveopers.</p>
+                    <p>I was put on this project to provide fresh perspective for a long term problem faced by the University of Washington: how to incorporate sample plans in the digital planning system. I lead the research phase of the project and advocated to shift the goal of the project away from sample plans and towards supporting long term academic planning. Along with one other student worker, l worked to design, prototype, evaluate, and present final designs to developers.</p>
                     <p>Special thanks to Kathy Bui along with Timothy Sun, Char Palacay, and Jason Civjan.</p>
 
                     <h2>Project Impact</h2>
-                    <p>The presentation of this process and design work influenced long-term product roadmaps for MyPlan, a tool used by over 45,000 students at the UW.</p>
+                    <p>The presentation of this process and design work influenced long-term product road maps for MyPlan, a tool used by over 45,000 students at the UW.</p>
                 </div>
 
                 <div className='fold'>
@@ -93,7 +93,7 @@ function planning(){
 
                 <div className='fold'>
                     <p className='pullQuote'>How can the University better support long term academic planning? </p>
-                    <p>Provide accessible and reliable information to help students decide which classes to take and when </p>
+                    <p>Provide accessible and reliable information to help students decide which classes to take and when</p>
                     <p>Organize data to make academic requirements more clear, improve consistency across departments, and allow students to customize their plans</p>
                     <p>Support students with no major to explore, compare options, and move toward graduation</p>
                 </div>
@@ -168,7 +168,7 @@ function planning(){
 
                 <div className='fold'>
                     <h3>Reflection</h3>
-                    <p>The biggest challenge of this project was checking every assumption I brought in from my own experiences with academic planning. Like the participants in our studies, I am also a UW student who registers quarterly for classes and must plan in advance in order to graduate with my desired degree. Throughout this project, I challenged myself to question all assumptions and back up all decisions with data from others, rather than basing the design on my own experiences.This "Question all Assumptions" mindset has made me a better designer by forcing me to justify decisions through data and to remain curious and open to diverse perspectives, goals, and needs. </p>
+                    <p>The biggest challenge of this project was checking every assumption I brought in from my own experiences with academic planning. Like the participants in our studies, I am also a UW student who registers quarterly for classes and must plan in advance in order to graduate with my desired degree. Throughout this project, I challenged myself to question all assumptions and back up all decisions with data from others, rather than basing the design on my own experiences. This "Question all Assumptions" mindset has made me a better designer by forcing me to justify decisions through data and to remain curious and open to diverse perspectives, goals, and needs. </p>
                 </div>
             </div>    
         </div>

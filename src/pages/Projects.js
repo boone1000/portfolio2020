@@ -4,7 +4,7 @@ function Projects(){
     return <div className="page">
         <div className='splash'>
             <h1>Hi, I'm Ashley!</h1>
-            <p id='introText'>I am a UX Designer with a strong background in qualitative research and a passion for finding simple solutions to complex problems. Interested in inclusive education, inspiring creativity, and empowering people through technology. </p>
+            <p id='introText'>I am a UX Designer with a strong background in qualitative research and a passion for finding simple solutions to complex problems. Interested in inclusive education, collaborative creativity, and empowering people through technology. </p>
             <p>\/</p>
         </div>
 
@@ -46,8 +46,8 @@ function Projects(){
             <div class="projectcard">
                 <img className='projectCardImage' src={require('../images/oralhistoryCover.png')} alt='backpacking pic'></img>
                 <div class="projectCardContainer">
-                    <p className='metadata'>Proffessional Work | Spring 2020</p>
-                    <a className='projectCardTitle'  href='/oralhistory'>Encouraging awarenes and reflection by sharing UW student stories</a>
+                    <p className='metadata'>Professional Work | Spring 2020</p>
+                    <a className='projectCardTitle'  href='/oralhistory'>Encouraging awareness and reflection by sharing UW student stories</a>
                     <p></p>
                     <button className='projectCardButton' onClick={() => window.open('/oralhistory',"_self")}>Read More</button>
                 </div>

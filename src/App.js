@@ -37,6 +37,11 @@ function App() {
       <Route path="/lighthouse" component={lighthouse} />
       <Route path="/discharge" component={discharge} />
 
+      <footer className='App-footer'>
+        <p>Hand coded by Ashley Boone</p>
+        <p>boone1000@gmail.com</p>
+      </footer>
+
 
 
     </div>

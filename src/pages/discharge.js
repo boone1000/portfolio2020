@@ -60,14 +60,14 @@ function discharge(){
 
                 <div className='fold'>
                     <h2>We evaluated these concepts by asking for feedback from nurses and patient families.</h2>
-                    <p>In an online survey, we asked participants to rate each concepts ability to improve the discharge process based on five values revealed in our research.</p> 
+                    <p>In an online survey, we asked participants to rate each concepts' ability to improve the discharge process based on five values revealed in our research.</p> 
                 </div>
 
                 <div className='fold'>
                     <h2>With this input, we were able to prioritize these concepts based on feasibility and impact.</h2>
                     <p>Examining the quantitative and qualitative data we received, the team assigned values to quantify each idea’s impact on nurses and patients, as well as the feasibility of each solution. </p>
                     <img className='caseStudyImage' src={require('../images/dischargePriorities.png')} alt='backpacking pic'></img>
-                    <p>Based on this analsyis, we decided to move forward designing a take home schedule for patient families.</p>
+                    <p>Based on this analysis, we decided to move forward designing a take home schedule for patient families.</p>
                 </div>
 
                 <div className='fold'>

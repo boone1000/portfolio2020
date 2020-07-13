@@ -4,115 +4,171 @@ function oralhistory(){
     return <div className="page">
         <div>
             <img className='caseStudyTitleImage' src={require('../images/oralhistoryCover.png')} alt='backpacking pic'></img>
-            <p className="caseStudyMetadata">Professional Work | Assistant UX Designer | UW-IT</p>
+            <p className="caseStudyMetadata">Professional Work | Student UX Designer | UW-IT</p>
         </div>
         <div className='projectWrapper'>
             <div className='projectBody'>
                 <h1>Oral Histories</h1>
                 
                 <p>Sharing stories of UW students to increase awareness and encourage reflection.</p>
-                <img className='caseStudyImage' src={require('../images/myplanprogress.png')} alt='backpacking pic'></img>
+
+                <img className='caseStudyImage' src={require('../images/oralhistorymockup.png')} alt='backpacking pic'></img>
 
                 <div className='fold'>
-                    <h2>The Team</h2>
-                    <p>Ashley Boone: Research, Design, Evaluation</p>
-                    <p>Kathy Bui: Research, Design, Evaluation</p>
-                    <p>Timothy Sun: Research </p>
-                    <p> Oorja </p>
-                    <p> Noah</p>
-                    <p>Jason Civjan: Mentorship throughout process​</p>
+                    <h2>My Role</h2>
+                    <p>This project was originally conceived as a research effort aimed at building a deeply authentic dialogue with current students. I was placed on the project to add to the growing collection of interviews and to help design a interface that would allow us to share stories with others at UW.</p>
+                    <p>I conducted and analyzed interviews, built workflows that helped define the purpose of the interface, brainstormed and iterated on design ideas, assisted and lead separate rounds of usability testing, worked with one other student to analyze results and prioritize changes, reshaped the interface to better fit student mental models, and wrote specifications to drive development of the platform.</p>
+                    <p>Special thanks to Jason Civjan, Oorja Chowdhury, Noah, Yujin, Mason, Stephanie, Kathy Bui, Ashley Wang, and Grace Zhu. </p>
+
+                    <h2>Project Impact</h2>
+                    <p>This project is currently in backlog to be developed by my department at UW-IT. I wrote specifications to direct future development.</p>
                 </div>
 
                 <div className='fold'>
-                    <h2>Research</h2>
-                    <h3>Interviews</h3>
-                    <p>We conducted informal, on-campus interviews aimed at hearing student stories about how they found their academic path</p>
-                    <h3>Surveys</h3>
-                    <p>45 participants responded to our 12 question survey, which we used to further validate the results from our interviews and discussions with campus advisors</p>
-
-
-                    <img className='caseStudyImage' src={require('../images/myplanSurvey.png')} alt='backpacking pic'></img>
-                    <img className='caseStudyImage' src={require('../images/myplanAffinity.png')} alt='backpacking pic'></img>
+                    <h2>The Student Experience Interviews</h2>
+                    <p>This project began as a research method aimed at understanding the breadth and depth of UW student experiences. The research goals are:</p>
+                    <li>Cultivate a holistic understanding of students</li>
+                    <li>Obtain a more genuine student perspective</li>
+                    <li>Focus on the "human" by avoiding generalizations</li>
                 </div>
 
                 <div className='fold'>
-                    <h3>Findings</h3>
-                    <p>1. Students do not know what courses will be offered in advance</p>
-                    <p>2. Decentralized information is difficult to find</p>
-                    <p>3. Sample plans are difficult to read, inconsistent, and uncustomizable</p>
-                    <p>4. Planning is significantly harder for students before being accepted to a department</p>
+                    <h2>I approached students to talk about their experiences at UW.</h2>
+                    <p>These semi-structured interviews were inspired by historian Studs Turkel and Brandon Stanton, creator of Humans of New York. The interview process is described below.</p>
+                    <img className='caseStudyImage' src={require('../images/oralhistoryProcess.png')} alt='Meet a stranger, have a chat, transcribe'></img>
                 </div>
 
                 <div className='fold'>
-                     <p className='pullQuote'>How can the University better support long term academic planning? </p>
+                    <h2>It became clear that these stories could present several benefits to students and university decision makers.</h2>
+                    <div className='twocolumns'>
+                        <div className='column'>
+                            {/* <p>Celebrate Diversity</p>
+                            <p>By asking diverse groups of students similar questions, we developed a collection of unique perspectives on common UW experiences. Sharing these perspectives can emphasize the diversity of opportunity available at the UW.</p> */}
+                            <p>Offer Advice</p>
+                            <p>Seeking help was a common theme in interviews, but many students are unsure of who to talk to. We hope that by sharing these stories readers will be able to find a perspective that can help solve challenges they may be facing.</p>
+                            <p>Relieve Isolation</p>
+                            <p>After discussing a specific challenge they faced, students would frequently comment on feeling alone to face that struggle. By sharing stories we can help students realize they are not alone.</p>
+                        </div>
+                        <div className='column'>
+                            <p>Prompt Reflection</p>
+                            <p>Many students appreciated the opportunity to reflect when participating in interviews. We think we can get the same reaction from listening or reading student stories.</p>
+                            {/* <p>Holistic</p>
+                            <p>A qualitative research effort provides the opportunity to develop a holistic picture of other students. We want to encourage awareness of the depth of other's experiences, looking at students as whole people beyond numbers or statistics.</p> */}
+                        </div>
+                    </div>
                 </div>
 
                 <div className='fold'>
-                    <p>Provide accessible and reliable information to help students decide which classes to take and when </p>
-                    <p>Organize data to make academic requirements more clear, improve consistency across departments, and allow students to customize their plans</p>
-                    <p>Support students with no major to explore, compare options, and move toward graduation</p>
+                    <h2>We built out workflows to detail experiences where students could benefit from self-reflection.</h2>
+                    <p>I collaborated with one full-time UX Designer at UW-IT and one Student Designer to build detailed workflows of student experiences, identifying places where students could most clearly benefit from exposure to student stories.</p>
+                    <img className='caseStudyImage' src={require('../images/oralhistoryWorkflow.png')} alt='Meet a stranger, have a chat, transcribe'></img>
                 </div>
 
                 <div className='fold'>
-                    <h3>Previous Solutions</h3>
-                    <p>Students had previously been offered two resources to help with academic planning at the UW.</p>
-                    <h4>My Plan Interface</h4>
-                    <p>Findings indicate that this digital tool does not offer enough guidance to help students with academic planning.</p>
-                    <h4>Departmental Sample Plans</h4>
-                    <p>Students find the sample plans inconsistent, overly prescriptive, and uncustomizable, making  them difficult to use for most students</p>
-            
-                    <img className='caseStudyImage' src={require('../images/myplanBefore.png')} alt='backpacking pic'></img>
-                    <img className='caseStudyImage' src={require('../images/myplanSample.png')} alt='backpacking pic'></img>
+                    <h2>Building out these workflows helped us define the goal of the sharing platform.</h2>
+                    <p>Project Goal: Share the depth and breadth of student experience to encourage reflection, offer advice, and limit feelings of isolation.</p>
                 </div>
 
                 <div className='fold'>
-                    <h2>Design</h2>
-                    <h3>Low Fidelity Sketches</h3>
-                    <p>Used to quickly convey design ideas and explore possible directions for design work.</p>
-
-                    <img className='caseStudyImage' src={require('../images/myplanSketches.png')} alt='backpacking pic'></img>
+                    <h2>Sharing the breadth and depth of UW student experiences.</h2>
+                    <p>I advocated that we acheive these goals by playing up two strengths of a growing dataset of 60+ interviews.</p>
+                    <div className='twocolumns'>
+                        <div className='column'>
+                            <p>Diverse Perspectives</p>
+                            <p>By asking diverse groups of students similar questions, we developed a collection of unique perspectives on common UW experiences. Sharing these perspectives can emphasize the diversity of opportunity available at the UW.</p>
+                            <p>Users should be able to review many students responses within one topic of interest (e.g. choosing a major, finding community).</p>
+                            <p>This became the "Stories" page.</p>
+                        </div>
+                        <div className='column'>
+                            <p>Holistic Experiences</p>
+                            <p>A qualitative research effort provides the opportunity to develop a holistic picture of other students. We want to encourage awareness of the depth of other's experiences, looking at students as whole people beyond numbers or statistics.</p>
+                            <p>Users should be able to read one student's full, uninterrupted story. They should also be able to find students with specific traits. </p>
+                            <p>This became the "Students" page.</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div className='fold'>
-                    <h3>Wireframes</h3>
-                    <p>We chose to move forward with the two vertical panel design.  The left panel shows the student's plan and the right shows the requirements for the chosen program.  Wireframes were used to explore the details of the design and to establish workflows.</p>
-
-                    <img className='caseStudyImage' src={require('../images/myplanWireframes.png')} alt='backpacking pic'></img>
+                    <h2>Iteration I</h2>
+                    <p>I assisted two other student UX Designers to build the first prototype for this project on Sketch.</p>
+                    <img className='caseStudyImage' src={require('../images/oralhistoryPrototypeOne.png')} alt='Meet a stranger, have a chat, transcribe'></img>
                 </div>
 
                 <div className='fold'>
-                    <h3>High Fidelity Prototypes</h3>
-                    <p>The high fidelity prototype was used in usability tests to evaluate the design.  After making changes based on the results of the usability tests, we delivered the high fidelity prototype to developers to convey our solution.</p>
+                    <h2>We used the prototype to conduct usability tests.</h2>
+                    <p>In these sessions, we encouarged participants to explore the website as they normally would, then asked them to complete a series of tasks. We utilized think-aloud protocol and asked participants questions throughout the session to reveal their thought processes, expectations, and first impressions.</p>
+                </div>
+
+                <div className='fold' id='numberedFindings'>
+                    <h2>Usability tests revealed serious disconnect between website structure and users' mental models.</h2>
+                    <p>01. Users did not realize the stories were collected from interviews, undermining trust and creating confusion around language and formality</p>
+                    <p>02. The difference between sorting by students and sorting by stories was not clear to participants</p>
+                    <p>03. Language of the coding scheme that is used to sort stories by common experiences was not understood by participants</p>
+                </div>
+
+                <div className='fold'>
+                    <h2>I inherited project leadership and began to make changes to address usability test findngs.</h2>
+                    <p>01. </p>
+                    <p>Users did not realize the stories were collected from interviews, undermining trust and creating confusion around language and formality</p>
+                    <p>> Introduced a question answer format for the long interview pages and</p>
+                    <p>> Strategically use quotation marks to reduce ambiguity in other locations</p>
+                    <p>> Use the home page to provide context on the interview process</p>
+                    <p>02.</p> 
+                    <p>The difference between sorting by students and sorting by stories was not clear to participants</p>
+                    <p>> Renamed the "Stories" feautre "Collections" to differentiate</p>
+                    <p>> Redeveloped the visual design to separate "Students" and the new "Collections" page</p>
+                    <p>> Removed the filter to mark unique functions of the two pages.</p>
+                    <p>03.</p> 
+                    <p>Language of the coding scheme that is used to sort stories by common experiences was not understood by participants</p>
+                    <p>> Re-sort the coding scheme into codes that relate to student experience, using familiar language.</p>
+                    <p>> For example, the codes learning/gaining perspective and identity/finding meaning were grouped with several others into one Collection titled "self reflection."</p>
+                </div>
+
+
+                <div className='fold'>
+                    <h2>Iteration II</h2>
+                    <p>I worked with one other Student UX Designer to make the changes described above. To create a second prototype.</p>
+                    <img className='caseStudyImage' src={require('../images/oralhistoryPrototypeTwo.png')} alt='Meet a stranger, have a chat, transcribe'></img>
+                    <img className='caseStudyImage' src={require('../images/oralhistoryPrototypeTwoFull.png')} alt='Meet a stranger, have a chat, transcribe'></img>
+                </div>
+
+                <div className='fold'>
+                    <h2>We used the prototype to conduct a second round of usability tests.</h2>
+                    <p>The scope of the changes made between the first and second iterations of the design required an additional round of usability testing to test whether the second iteration addressed the issues in the first.</p>
+                </div>
+
+                <div className='fold'>
+                    <h2>We received overwhelmingly positive feedback from participants.</h2>
+                    <p>The results of our usability testing indicated that the changes made had successfully resolved the issues surfaced in the original usability tests.</p>
+                    <p>We made several changes to syntax and worked to clarify our process further by writing an about page explaining the teams role in the interviews and sharing platform.</p>
+                    <p>We also idenitfied several opportunities for future work to continue improving the sharing platform.</p>
+                    <div className='twocolumns'>
+                        <div className='column'>
+                            <p>01.</p>
+                            <p>Highlight related resources for students</p>
+                            <p>02.</p>
+                            <p>Recruit interviewers and interviewees through website</p>
+                        </div>
+                        <div className='column'>
+                            <p>03.</p>
+                            <p>Provide interview summaries at the beginning of articles</p>
+                            <p>04.</p>
+                            <p>Integrate platform within other online UW tools</p>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
                 
-                    <img className='caseStudyImage' src={require('../images/myplanPrototype.png')} alt='backpacking pic'></img>
-                </div>
 
 
-                <div className='fold'>
-                    <h2>Evaluate</h2>
-                    <h3>Usability Testing</h3>
-                    <p>Using the high fidelity interactive prototype, we ran usability tests with 8 UW Students to evaluate the efficacy of the design.  We use the findings from these usability tests to improve the design and to further validate many of the choices we had made throughout the design process.</p>
-                    <h3>Design Changes</h3>
-                    <h4>Surface salient course information</h4>
-                    <p>We discovered that participants in the usability test considered the course title as highly important course information that was not prominent in the prototype.  We changed the position of this information to make it more salient to students</p>
-                    <h4>Improve Readability</h4>
-                    <p>The acronyms used in the prototype were unclear to participants in our usability studies.  We clarified the acronyms by writing out the full text or by adding the color codes of the larger system to reference quarters. These changes improve the readability of the system</p>
-                    <h4>Clarify Iconography</h4>
-                    <p>Many of the icons we used were not correctly interpreted by participants, so we redesigned them to make the purpose more clear.</p>
-                    <h3>Positive Feedback</h3>
-                    <p className='quote'>"This is better than anything that I've currently used to plan.  This combined the best part of MyPlan with the best part of DARS" (p1)</p>
-                    <p className='quote'>"I didn't have to go hunting for it in different areas and it was nice that it was all on the same page and didn't navigate me to a new window" (p4)</p>
-                    <p className='quote'>"Having the list that removes things from itself is a lot better than DARS because it still has a long list of things even if you have them done" (p7)</p>
-                </div>
 
-                <div className='fold'>
-                  <h2>Final Product</h2>
-                </div>
-
-                <div className='fold'>
-                    <h3>Reflection</h3>
-                    <p>The biggest challenge of this project was checking every assumption I brought in from my own experiences with academic planning. Like the participants in our studies, I am also a UW student who registers quarterly for classes and must plan in advance in order to graduate with my desired degree. Throughout this project, I challenged myself to question all assumptions and back up all decisions with data from others, rather than basing the design on my own experiences.This "Question all Assumptions" mindset has made me a better designer by forcing me to justify decisions through data and to remain curious and open to diverse perspectives, goals, and needs. </p>
-                </div>
             </div>    
         </div>
 
