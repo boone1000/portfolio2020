@@ -5,7 +5,7 @@ function Projects(){
         <div className='splash'>
             <h1>Hi, I'm Ashley!</h1>
             <p id='introText'>I am a UX Designer with a strong background in qualitative research and a passion for finding simple solutions to complex problems. Interested in inclusive education, collaborative creativity, and empowering people through technology. </p>
-            <p>\/</p>
+            <p></p>
         </div>
 
         <div className='projectClassWrapper'>
