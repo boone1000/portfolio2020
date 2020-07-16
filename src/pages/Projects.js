@@ -27,7 +27,7 @@ function Projects(){
                 <img className='projectCardImage' src={require('../images/dischargecover.jpg')} alt='backpacking pic'></img>
                 <div class="projectCardContainer">
                     <p className='metadata'>Capstone Project | Seattle Children's Hospital | Spring 2020</p>
-                    <p className='projectCardTitle'>Preparing pediatric cancer patients and their families to leave the hospital</p>
+                    <a className='projectCardTitle' href='/discharge'>Preparing pediatric cancer patients and their families to leave the hospital</a>
                     <p></p>
                     <button className='projectCardButton' onClick={() => window.open('/discharge',"_self")}>Read More</button>
                 </div>
@@ -37,7 +37,7 @@ function Projects(){
                 <img className='projectCardImage' src={require('../images/lighthouseCover.png')} alt='backpacking pic'></img>
                 <div class="projectCardContainer">
                     <p className='metadata'>Class Project | Winter 2018</p>
-                    <p className='projectCardTitle'>Helping young adults feel safe walking home in the dark</p>
+                    <a className='projectCardTitle' href='/lighthouse'>Helping young adults feel safe walking home in the dark</a>
                     <p></p>
                     <button className='projectCardButton' onClick={() => window.open('/lighthouse',"_self")}>Read More</button>
                 </div>

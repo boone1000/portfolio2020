@@ -154,22 +154,22 @@ function oralhistory(){
                             <p>Provide interview summaries at the beginning of articles</p>
                             <p>04.</p>
                             <p>Integrate platform within other online UW tools</p>
-
-
                         </div>
                     </div>
-
                 </div>
 
+                <div className='fold'>
+                    <h2>I wrote specifications to direct future development.</h2>
+                    <p>The project is currently in the pipeline for future development by UW-IT. </p>
+                </div>
 
+            </div>  
 
+            {/* <div className="finalProduct">
+                <p>Husky Voices</p>
+                <img className='caseStudyImage' src={require('../images/oralhistorymockup.png')} alt='backpacking pic'></img>
+            </div> */}
 
-
-                
-
-
-
-            </div>    
         </div>
 
     </div>
