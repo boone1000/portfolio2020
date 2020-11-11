@@ -13,6 +13,21 @@
   padding-bottom: 15px;
 }
 
+
+a{
+  color: #C3B899;
+}
+
+.footer-Container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 50%;
+  justify-content: space-evenly;
+
+}
+
 /* HEADER */
 
 .App-header {

@@ -3,10 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 import './media.css';
 import { BrowserRouter, Route, Link } from 'react-router-dom'
-import Home from './pages/Projects'
-import Portfolio from './pages/Resume'
-import Contact from './pages/About'
+import Home from './pages/Projects';
+import Portfolio from './pages/Resume';
+import Contact from './pages/About';
 import About from './pages/About';
+import Research from './pages/Research';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import planning from './pages/planning';
@@ -23,7 +24,8 @@ function App() {
           <p>ab</p>
         </div>
         <div className='menu'>
-          <Link to="/">projects</Link>
+          <Link to="/">design</Link>  {/*Changed name to add research tabs*/}
+          <Link to="/research">research</Link>
           <Link to="/resume">resume</Link>
           <Link to="/about">about</Link>
         </div>
@@ -31,6 +33,7 @@ function App() {
 
       <Route path="/" exact component={Projects} />
       <Route path="/resume" component={Resume} />
+      <Route path="/research" component={Research} />
       <Route path="/about" component={About} />
       <Route path="/planning" component={planning} />
       <Route path="/oralhistory" component={oralhistory} />
@@ -38,8 +41,14 @@ function App() {
       <Route path="/discharge" component={discharge} />
 
       <footer className='App-footer'>
-        <p>Hand coded by Ashley Boone</p>
-        <p>boone1000@gmail.com</p>
+        <div className='footer-Container'>
+          <p>boone1000@gmail.com</p>
+          <p><a href="https://www.linkedin.com/in/ashleynboone/">linkedin</a></p>
+          <p><a href="https://github.com/boone1000">github</a></p>
+        </div>
+        <p>Built by Ashley Boone</p>
+
+
       </footer>
 
 
