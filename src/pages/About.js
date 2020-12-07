@@ -11,10 +11,14 @@ function About(){
             <div className='biotext'>
                 <h1>Ashley Boone</h1>
                 <p id='line'>----------------------------------</p>
-                <p className='main'>Hello! I'm a UX Designer recently graduated from the University of Washington College of Engineering with a Bachelor's of Science in Human Centered Design and Engineering at the University of Washington in Seattle. </p>  
+                <p className='main'>Hello! I'm a Researcher and UX Designer recently graduated from the University of Washington College of Engineering with a Bachelor's of Science in Human Centered Design and Engineering at the University of Washington in Seattle. </p>
+                <p className='main'>I study interactions between people and technology and investigate innovative ways to create more meaningful experiences.  My goal is to open decision making processes to diverse voices.</p>     
+
+                {/* UX DESIGN BIO */}
+                {/* <p className='main'>Hello! I'm a UX Designer recently graduated from the University of Washington College of Engineering with a Bachelor's of Science in Human Centered Design and Engineering at the University of Washington in Seattle. </p>  
                 <p className='main'>I study interactions between people and technology and investigate innovative ways to create more meaningful experiences.  My goal is to prioritize user experiences and give a voice to the users of a product, system, or service.</p>   
                 <p className='main'> I am currently seeking a full-time opportunity to use my thoughtful, evidence-based approach to design to contribute to meaningful projects with a positive impact. I am passionate about using the human centered design process to create inclusive and engaging solutions to complex problems. </p>
-                {/* <p>I am also a.....</p> */}
+                <p>I am also a.....</p> */}
             </div>
 
             {/* <div className='bottomhalfwrapper'>

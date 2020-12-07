@@ -4,6 +4,40 @@ function Research(){
     return <div className="page">
 
         <div className='splash'>
+            <h1>Research</h1>
+            <p id='introText'>I'm interested in communities engaging in problem solving processes through open source innovation, citizen science, participatory design, and civic engagement. </p>
+            <p id='introText'>I am currently applying to PhD programs for fall 2021.</p>
+            <p></p>
+        </div>
+
+        <div className='projectClassWrapper'>
+
+            <div className='projectList'>
+
+                <div class="projectcard">
+                    <img className='projectCardImage' src={require('../images/STEMcover.jpg')} alt='child with paintbrush'></img>
+                    <div class="projectCardContainer">
+                        <p className='metadata'>STEM Outreach | Winter 2020</p>
+                        <a className='projectCardTitle' href='/outreach'>STEM education through creativity, movement, and play</a>
+                        <p></p>
+                        <button className='projectCardButton' onClick={() => window.open('/outreach',"_self")}>Read More</button>
+                    </div>
+                </div>
+
+                <div class="projectcard">
+                    <img className='projectCardImage' src={require('../images/covidCover.png')} alt='collection of hackathons'></img>
+                    <div class="projectCardContainer">
+                        <p className='metadata'>Research Intern | Spring-Winter 2020</p>
+                        <a className='projectCardTitle' href='/covid'>Open design responses to a global pandemic</a>
+                        <p></p>
+                        <button className='projectCardButton' onClick={() => window.open('/covid',"_self")}>Read More</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div className='splash'>
             <h1>Publications</h1>
             <p className='main'>STEM Outreach in Underserved Communities through the Lens of Play, Creativity, and Movement; <b>Ashley Boone</b>, Jamie Vanderwall, Maya Klitsner, Irini Spyridakis; IEEE Global Humanitarian Technology Conference (GHTC). IEEE, 2020.</p>  
             <p className='main'>Parenting with Alexa: Exploring the Introduction of Smart Speakers on Family Dynamics; Erin  Beneteau, <b>Ashley Boone</b>,  Yuxing  Wu, Julie A. Kientz, Jason Yip, Alexis Hiniker; CHI 2020: The 2020 ACM Conference on Human Factors in Computing Systems.</p> 
@@ -13,7 +47,6 @@ function Research(){
 
             {/* <p>I am also a.....</p> */}
         </div>
-
     </div>
 }
 

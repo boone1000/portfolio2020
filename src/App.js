@@ -14,6 +14,10 @@ import planning from './pages/planning';
 import oralhistory from './pages/oralhistory';
 import lighthouse from './pages/lighthouse';
 import discharge from './pages/discharge';
+import outreach from './pages/outreach';
+import covid from './pages/covid';
+
+
 
 function App() {
   return <BrowserRouter>
@@ -39,10 +43,14 @@ function App() {
       <Route path="/oralhistory" component={oralhistory} />
       <Route path="/lighthouse" component={lighthouse} />
       <Route path="/discharge" component={discharge} />
+      <Route path="/outreach" component={outreach} />
+      <Route path="/covid" component={covid} />
+
+
 
       <footer className='App-footer'>
         <div className='footer-Container'>
-          <p>boone1000@gmail.com</p>
+          <p>boone1000[at]gmail.com</p>
           <p><a href="https://www.linkedin.com/in/ashleynboone/">linkedin</a></p>
           <p><a href="https://github.com/boone1000">github</a></p>
         </div>
@@ -50,8 +58,6 @@ function App() {
 
 
       </footer>
-
-
 
     </div>
   </BrowserRouter>
