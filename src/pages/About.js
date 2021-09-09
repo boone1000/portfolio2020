@@ -11,8 +11,14 @@ function About(){
             <div className='biotext'>
                 <h1>Ashley Boone</h1>
                 <p id='line'>----------------------------------</p>
-                <p className='main'>Hello! I'm a Researcher and UX Designer recently graduated from the University of Washington College of Engineering with a Bachelor's of Science in Human Centered Design and Engineering at the University of Washington in Seattle. </p>
-                <p className='main'>I study interactions between people and technology and investigate innovative ways to create more meaningful experiences.  My goal is to open decision making processes to diverse voices.</p>     
+                <p className='main'>Hello! I'm an HCI Researcher and UX Designer. </p>
+                <p className='main'>I am a PhD Student at Georgia Tech supervised by Dr. Chris Le Dantec. I received my undergraduate degree in Human Centered Design and Engineering from the University of Washington in 2020.</p>
+                <p className='main'>I study interactions between people and technology and investigate innovative ways to create more meaningful experiences.  My goal is to open decision making processes to diverse voices.</p>   
+
+
+                {/* GAP YEAR BIO */}
+                {/*<p className='main'>Hello! I'm a Researcher and UX Designer recently graduated from the University of Washington College of Engineering with a Bachelor's of Science in Human Centered Design and Engineering at the University of Washington in Seattle.</p>
+                <p className='main'>I study interactions between people and technology and investigate innovative ways to create more meaningful experiences.  My goal is to open decision making processes to diverse voices.</p>     */}
 
                 {/* UX DESIGN BIO */}
                 {/* <p className='main'>Hello! I'm a UX Designer recently graduated from the University of Washington College of Engineering with a Bachelor's of Science in Human Centered Design and Engineering at the University of Washington in Seattle. </p>  
