@@ -16,6 +16,8 @@ import lighthouse from './pages/lighthouse';
 import discharge from './pages/discharge';
 import outreach from './pages/outreach';
 import covid from './pages/covid';
+import frontPage from './pages/frontpage';
+import cv from './images/AshleyBoone_CV_11.4.2022.pdf'
 
 
 
@@ -28,25 +30,13 @@ function App() {
           <p>ab</p>
         </div>
         <div className='menu'>
-          <Link to="/">design</Link>  {/*Changed name to add research tabs*/}
-          <Link to="/research">research</Link>
-          <Link to="/resume">resume</Link>
-          <Link to="/about">about</Link>
+          <Link to="/">Research</Link>  
+          <a href={cv} target="_blank" >CV</a>
         </div>
       </header>
 
-      <Route path="/" exact component={Projects} />
-      <Route path="/resume" component={Resume} />
-      <Route path="/research" component={Research} />
-      <Route path="/about" component={About} />
-      <Route path="/planning" component={planning} />
-      <Route path="/oralhistory" component={oralhistory} />
-      <Route path="/lighthouse" component={lighthouse} />
-      <Route path="/discharge" component={discharge} />
-      <Route path="/outreach" component={outreach} />
-      <Route path="/covid" component={covid} />
-
-
+      <Route path="/" exact component={frontPage} />
+      <Route path="/CV" exact component={frontPage} />
 
       <footer className='App-footer'>
         <div className='footer-Container'>
@@ -54,7 +44,6 @@ function App() {
           <p><a href="https://www.linkedin.com/in/ashleynboone/">linkedin</a></p>
           <p><a href="https://github.com/boone1000">github</a></p>
         </div>
-        <p>Built by Ashley Boone</p>
 
 
       </footer>
