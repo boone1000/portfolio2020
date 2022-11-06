@@ -28,7 +28,7 @@ function frontPage(){
                 <div className='researchProject'>
                     <img className='projectIcon' src={require('../images/icon_eye.png')} alt='eye icon'></img>
                     <div>
-                    <h2>Science Education on Twitter</h2>
+                    <h2>Science Learning on Twitter</h2>
                     <p>How do people publically respond to educational content on Twitter? We analyze replies and user accounts of people who interact with educational tweets from scientists with large followings on Twitter.</p>
                     </div>
                 </div>
