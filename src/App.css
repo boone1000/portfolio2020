@@ -1,0 +1,175 @@
+.App {
+  text-align: left;
+  font-family: Nunito, Lato, sans-serif;
+  background-color: #fffffd;
+  line-height: 1.5;
+}
+
+h1{
+  text-transform: uppercase;
+  color: #64958C;
+}
+
+h2{
+  color: #64958C;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* FOOTER */
+.App-footer{
+  background-color: #9BC29D;
+  color: #fdfffd;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.App-footer a{
+  color: #fffffd;
+  text-decoration: none;
+}
+
+.footer-Container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 50%;
+  justify-content: space-evenly;
+
+}
+
+/* HEADER */
+
+.App-header {
+  background-color: #fffffd;
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.25rem;
+}
+
+.logo{
+  justify-content:left;
+  padding-right: 20%;
+  padding-left: 3%;
+}
+
+.menu{
+  margin-right:3%;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.App-header a {
+  color:#64958C;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+/* HOME PROJECT PAGE SYLTING */
+
+#introText{
+  font-size: 24px;
+}
+
+
+
+
+.splash{
+  padding:15%;
+  color: #19425E;
+}
+
+
+/* ABOUT PAGE STYLE */
+
+.aboveFold{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.wrapperPics{
+  width: 50%;
+}
+
+.aboutImage{
+  width: 100%;
+}
+
+.biotext{
+  width: 50%;
+  /* text-align: left; */
+  padding-left: 5%;
+  /* color: #19425E; */
+}
+
+.aboutContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.main{
+  text-align: left;
+}
+
+@media screen and (min-width: 780px){
+  .aboutContainer{
+    width: 80%;
+    margin: auto;
+    min-height: 95vh;
+  }
+}
+
+@media screen and (max-width: 920px){
+  .aboutContainer{
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    min-height: 95vh;
+    padding-top: 10px;
+  }
+
+  .biotext{
+    width: 90%;
+    /* text-align: center; */
+  }
+
+  .wrapperPics{
+    width: 90%;
+  }
+
+  .aboveFold{
+    flex-wrap: wrap;
+  }
+}
+
+.projectIcon{
+  height:75px;
+  width:75px;
+  margin-right:50px;
+}
+
+.researchProject{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.section{
+  margin-top:100px;
+}
+
+#finalSection{
+  margin-bottom: 100px;
+}
