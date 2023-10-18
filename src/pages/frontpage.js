@@ -6,7 +6,7 @@ function frontPage(){
         <div className='aboutContainer'>
             <div className='aboveFold'>
                 <div className='wrapperPics'>
-                    <img className='aboutImage' src={require('../images/duotoneProfile.png')} alt='Image of Ashley'></img>
+                    <img className='aboutImage' src={require('../images/Ashley.jpg')} alt='Image of Ashley'></img>
                 </div>
                 <div className='biotext'>
                     <h1>Ashley Boone</h1>
