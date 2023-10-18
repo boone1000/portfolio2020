@@ -10,7 +10,7 @@ function frontPage(){
                 </div>
                 <div className='biotext'>
                     <h1>Ashley Boone</h1>
-                    <p className='main'>My work centers around digital civics, participation, and sociotechnical systems.  I primarily use qualitative research methods including interviews, field work, and Action Research methodologies.</p>   
+                    <p className='main'> I am a third-year PhD student specializing in Human-Centered Computing, exploring the intersection of digital civics and citizen science. Employing ethnographic methods, design activities, and action research, my current research uses data as an entry point to understand the social practices and technologies that enhance civic engagement through data.</p>   
                     <p className='main'>I am a currently pursuing my PhD at Georgia Tech advised by Dr. Christopher A. Le Dantec. I received my undergraduate degree in Human Centered Design and Engineering from the University of Washington in 2020.</p>
 
                 </div>
@@ -36,7 +36,7 @@ function frontPage(){
                     <img className='projectIcon' src={require('../images/icon_atom.png')} alt='atom icon'></img>
                     <div>
                     <h2>Creativity, Play, and Movement in STEM Education</h2>
-                    <p>How might we leverage creativity, play, and movement to engage underrepresented students in STEM topics? We developed an innovative curriculum designed to incroporate dance, art, collaboration, and free choice and evaluate student responses.</p>
+                    <p>How might we leverage creativity, play, and movement to engage underrepresented students in STEM topics? We developed an innovative curriculum designed to incorporate dance, art, collaboration, and free choice and evaluate student responses.</p>
                     </div>
                 </div>
 
