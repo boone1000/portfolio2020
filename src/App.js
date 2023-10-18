@@ -40,9 +40,10 @@ function App() {
 
       <footer className='App-footer'>
         <div className='footer-Container'>
-          <p>boone1000[at]gmail.com</p>
-          <p><a href="https://www.linkedin.com/in/ashleynboone/">linkedin</a></p>
-          <p><a href="https://github.com/boone1000">github</a></p>
+          <p>aboone34[at]gatech.edu</p>
+          <p><a href="https://www.linkedin.com/in/ashleynboone/">Linkedin</a></p>
+          <p><a href="https://github.com/boone1000">Github</a></p>
+          <p><a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=5sfJKp0AAAAJ">Google Scholar</a></p>
         </div>
 
 
