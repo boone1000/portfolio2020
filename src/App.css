@@ -8,6 +8,7 @@
 h1{
   text-transform: uppercase;
   color: #64958C;
+  margin-block-start: 0px;
 }
 
 h2{
@@ -22,8 +23,8 @@ a{
 .App-footer{
   background-color: #9BC29D;
   color: #fdfffd;
-  padding-top: 30px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 .App-footer a{
@@ -61,7 +62,7 @@ a{
 
 .menu{
   margin-right:3%;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: bold;
 
 }
@@ -78,9 +79,6 @@ a{
   font-size: 24px;
 }
 
-
-
-
 .splash{
   padding:15%;
   color: #19425E;
@@ -92,13 +90,13 @@ a{
 .aboveFold{
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: top;
+  align-items: top;
 }
 
 
 .wrapperPics{
-  width: 50%;
+  width: 300px;
 }
 
 .aboutImage{
@@ -106,17 +104,17 @@ a{
 }
 
 .biotext{
-  width: 50%;
+  width: 60%;
   /* text-align: left; */
-  padding-left: 5%;
+  padding-left: 50px;
   /* color: #19425E; */
 }
 
 .aboutContainer{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-top: 60px;
+  /* justify-content: center; */
+  /*padding-top: 60px;*/
 }
 
 .main{
@@ -132,6 +130,7 @@ a{
 }
 
 @media screen and (max-width: 920px){
+
   .aboutContainer{
     flex-direction: column;
     width: 80%;
@@ -141,12 +140,20 @@ a{
   }
 
   .biotext{
-    width: 90%;
+    width: 100%;
+    padding-left: 0px;
     /* text-align: center; */
   }
 
   .wrapperPics{
-    width: 90%;
+    width: 100%;
+    /* margin: auto; */
+  }
+
+  .aboutImage{
+    height: 300px;
+    width:100%;
+    object-fit: cover;
   }
 
   .aboveFold{

@@ -17,7 +17,8 @@ import discharge from './pages/discharge';
 import outreach from './pages/outreach';
 import covid from './pages/covid';
 import frontPage from './pages/frontpage';
-import cv from './images/AshleyBoone_CV_11.4.2022.pdf'
+import frontpage2025 from './pages/frontpage2025';
+import cv from './images/BooneCV_Jul12025.pdf'
 
 
 
@@ -31,19 +32,20 @@ function App() {
         </div>
         <div className='menu'>
           <Link to="/">Research</Link>  
+          <a href={'https://scholar.google.com/citations?user=5sfJKp0AAAAJ&hl=en&oi=ao'} target="_blank" >Publications</a>
           <a href={cv} target="_blank" >CV</a>
         </div>
       </header>
 
-      <Route path="/" exact component={frontPage} />
-      <Route path="/CV" exact component={frontPage} />
+      <Route path="/" exact component={frontpage2025} />
+      <Route path="/CV" exact component={frontpage2025} />
 
       <footer className='App-footer'>
         <div className='footer-Container'>
           <p>aboone34[at]gatech.edu</p>
-          <p><a href="https://www.linkedin.com/in/ashleynboone/">Linkedin</a></p>
+          {/* <p><a href="https://www.linkedin.com/in/ashleynboone/">Linkedin</a></p>
           <p><a href="https://github.com/boone1000">Github</a></p>
-          <p><a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=5sfJKp0AAAAJ">Google Scholar</a></p>
+          <p><a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=5sfJKp0AAAAJ">Google Scholar</a></p> */}
         </div>
 
 
