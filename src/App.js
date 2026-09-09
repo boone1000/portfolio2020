@@ -18,7 +18,8 @@ import outreach from './pages/outreach';
 import covid from './pages/covid';
 import frontPage from './pages/frontpage';
 import frontpage2025 from './pages/frontpage2025';
-import cv from './images/BooneCV_Jul12025.pdf'
+import frontpage2026 from './pages/frontpage2026';
+import cv from './images/BooneCV.9.9.2026.pdf'
 
 
 
@@ -31,14 +32,14 @@ function App() {
           <p>ab</p>
         </div>
         <div className='menu'>
-          <Link to="/">Research</Link>  
+          {/*<Link to="/">Research</Link> */}
           <a href={'https://scholar.google.com/citations?user=5sfJKp0AAAAJ&hl=en&oi=ao'} target="_blank" >Publications</a>
           <a href={cv} target="_blank" >CV</a>
         </div>
       </header>
 
-      <Route path="/" exact component={frontpage2025} />
-      <Route path="/CV" exact component={frontpage2025} />
+      <Route path="/" exact component={frontpage2026} />
+      <Route path="/CV" exact component={frontpage2026} />
 
       <footer className='App-footer'>
         <div className='footer-Container'>
